@@ -1,1 +1,11 @@
-Aloitin
+Aloitin asentamalla virtualboxin läppärilleni. Seurasin ohjeita täältä https://github.com/punnalathomas/linux-course/blob/main/h1-installing-linux.md 
+Kaikki sujui hyvin kunnes tuli kohta domain name, jossa pitäisi olla domain valmiina, joten lähdin tekemään sitä toisella koneella. Tein tämän Namecheap osoitteessa.
+Sain ostettua domain nimen henril.org mutta en saa tehtyä upcloudissa vps koska tarvitsen ssh-avaimen linuxista, jota en voi luoda ennen asennusta. 
+Skippasin tämän vaiheen ja tein linuxin asennuksen loppuun ja toivon että voin palata edelliseen vaiheeseen takaisin.
+Seuraavaksi loin sudo käyttäjän, asensin palomuurin ja tein reiän palomuurille
+Nyt kun asennukset oli tehty menin tekemään upcloudissa serverin, ja lisäsin siihen virtuaaliboxissa tehdyn ssh-avaimen. Kun se oli päällä yritin päästä siihen sisään komennolla ssh root@ osoite
+Tässä tuli ongelma The authencity of host " " can be established. " " key fingerprint is " ". This key is not known by any other names. Are you sure you want to continue connectin. Painoin kyllä. Warning permanently added " "
+to the list of known host. ja sitten Permission denied (publickey). Tämän jälkeen en tiennyt mitä tehdä joten yritin mkdir -p ~/.ssh && chmod 700 ~/.ssh
+echo "PASTE_YOUR_PUBLIC_KEY_HERE" >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys Kysyin apua geminiltä ja hän sanoi tämän. Mutta tuli chmod cannot access ja listan asioita.
+Tähän kohtaan jäin jumiin enkä tiedä miten edetä. 
