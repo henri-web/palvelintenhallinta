@@ -1,5 +1,27 @@
 # H1 Hei Ansiblen maailma tehtävä
 
+## Tiivistelmä 
+
+27.10.2026
+
+Aikaa en muista mutta tällöin tein osan tehtävistä H0 varten.
+
+03.11.2026
+
+Aloitus aika: 18.00
+
+Lopetusaika: 22.00
+
+04.11.2026
+
+Aloitusaika 01.00
+
+Lopetusaika 05.21
+
+Tässä raportissa suoritin H1 tehtävän, sekä parantelin asiat kuntoon edellisestä H0 tehtävästä, jonka edellisen palautuksen voi unohtaa kokonaan raportit alkaa tästä. Ohjeena käytin Tero Karvisen sivuilta otettuja linkkejä.
+
+Käytin apunu Geminiä asioitten oikein suomentamisessa.
+
 ## x) Lue ja tiivistä
 
 Ensimmäisessä artikkelissä "SSH public key - Login without password" puhutaan lyhyesti mikä SSH-avain ja miten se asennetaan
@@ -126,3 +148,13 @@ Ja lopputuloksemme saamme esille komennolloilla `tree -f`
 head -1000 ansible.cfg hosts.ini site.yml roles/hello/tasks/main.yml
 
 <img width="1033" height="305" alt="image" src="https://github.com/user-attachments/assets/08972107-dc59-444c-9091-7a8201dd4913" />
+
+## Lähteet
+
+Geminiä käytetty suomentamiseen tiettyjä käsitteitä.
+
+Karvinen, T 2026. SSH public key -Login without password luettavissa: https://terokarvinen.com/ssh-public-key-login-without-password/#install-ssh Luettu 3.11.2026
+
+Karvinen, T.2026. Hello Ansible. Luettavissa: https://terokarvinen.com/hello-ansible/. Luettu 3.11.2026
+
+Punnala, T. 2025. H1-installing-Linux. Luettavissa: https://github.com/punnalathomas/linux-course/blob/main/h1-installing-linux.md Luettu 3.11.2026
